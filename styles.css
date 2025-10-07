@@ -63,7 +63,14 @@ main {
 }
 
 section {
-    padding: 10px;
+    padding: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -93,6 +100,10 @@ section {
     background-image: url(images/screencapture-majid-tech-github-io-TimeTrackingDashboard-2025-10-07-17_16_23.png);
 }
 
+.Ableton {
+    background-image: url(images/screencapture-majid-tech-github-io-abletonAboutPage-2025-10-07-17_30_04.png)
+}
+
 a{
     text-decoration: none;
 }
@@ -109,4 +120,12 @@ a{
 
 .project-description p{
     line-height: 1.5;
+}
+
+@media (max-width: 700px) {
+
+}
+
+@media (max-width: 400px) {
+    
 }
